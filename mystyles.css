@@ -1,0 +1,47 @@
+
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: antiquewhite;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.display {
+    display: flex; 
+    align-items:flex-end;
+    justify-content: flex-start;
+    height: 10vh;
+
+    background-color: white;
+    border: .3rem solid black;
+    border-radius: .5rem;
+    font-size: 3em;
+    font-family: Helvetica;
+
+}
+
+.row-one,
+.row-two,
+.row-three,
+.row-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 10vh;
+
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border: .2rem solid black;
+}
