@@ -45,3 +45,7 @@ html {
     background-color: white;
     border: .2rem solid black;
 }
+
+.button#div {
+    width: 32%;
+}
