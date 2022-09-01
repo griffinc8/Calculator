@@ -35,7 +35,8 @@ html {
 
 }
 
-.button {
+.button,
+.button-operator {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,6 +47,6 @@ html {
     border: .2rem solid black;
 }
 
-.button#div {
+.button-operator#div {
     width: 32%;
 }
